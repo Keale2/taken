@@ -13,9 +13,12 @@
             h1 {
                 margin: auto;
             }
+            h1:hover::after {
+                content: attr(data-hidden);
+            }
         </style>
     </head>
     <body>
-        <h1>???</h1>
+        <h1 data-hidden="The Indian is in the dining room">???</h1>
     </body>
 </html>
