@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Keale2/taken/issues"
   },
-  "homepage": "http://keale2.github.io/taken"
+  "homepage": "http://keale2.github.io/taken",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
 }
