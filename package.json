@@ -1,0 +1,19 @@
+{
+  "name": "taken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keale2/taken.git"
+  },
+  "author": "Kyle Wagner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Keale2/taken/issues"
+  },
+  "homepage": "http://keale2.github.io/taken"
+}
