@@ -13,12 +13,22 @@
             h1 {
                 margin: auto;
             }
-            h1:hover::after {
-                content: attr(data-hidden);
-            }
         </style>
     </head>
     <body>
-        <h1 data-hidden="The Indian is in the dining room">???</h1>
+        <h1>???</h1>
+        <script>
+            let x = 0;
+            document.addEventListener(`keydown`, (e) => {
+              if (e.which === 191) {
+                x++;
+                if (x === 3) {
+                    document.querySelector("h1").innerText = "The Indian is in the dining room";
+                }
+              } else {
+                  x = 0;
+              }
+            });
+        </script>
     </body>
 </html>
